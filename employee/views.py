@@ -33,4 +33,4 @@ def update(request, id):
 def destroy(request, id):  
     employee = Employee.objects.get(id=id)  
     employee.delete()  
-    return redirect("/show")  
+    return redirect("/show")
